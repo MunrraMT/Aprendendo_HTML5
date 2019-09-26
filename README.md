@@ -1,4 +1,4 @@
-# Aprendendo_HTML5_01
+# Aprendendo HTML5
 ### Curso de HTML5 para iniciantes -  Node Studio Treinamentos - Usando Notepad++
 
 Clique [AQUI](https://github.com/MunrraMT/Aprendendo_HTML5) para ver o GitHUB.
