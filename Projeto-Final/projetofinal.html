@@ -28,30 +28,64 @@
             <a href="#filosofia">FILOSOFIA</a> |
             <a href="#creditos">CRÉDITOS</a> |
         </nav>
+        <br>
     </head>
 
     <main>
-        <figure>
-            <img src="../Projeto-Final/bruce-lee-01.jpg" alt="Bruce Lee" width="550">
-            <figcaption>Bruce lee em Operação Dragão (Enter the Dragon – 1973).</figcaption>
-        </figure>
-        <h2 id="creditos">Projeto Final do Curso de HTML5 para iniciantes - Node Studio Treinamentos</h2>
-        <h3>Bruce Lee, nascido Lee Jun-fan, em chinês 李振藩 (São Francisco, 27 de novembro de 1940 — Kowloon, 20 de julho de 1973) foi um artista, ator, lutador de artes marciais, filósofo e cineasta norte-americano que veio de uma família de Hong Kong, fundador do Jeet Kune Do.</h3>
+        <table>
+            <caption>
+                    <h2>Projeto Final do Curso de HTML5 para iniciantes - Node Studio Treinamentos</h2>
+            </caption>                
+            <thead>
+                <tr>
+                    <td colspan="3">Bruce Lee, nascido Lee Jun-fan, em chinês 李振藩 (São Francisco, 27 de novembro de 1940 — Kowloon, 20 de julho de 1973) foi um artista, ator, lutador de artes marciais, <mark>filósofo</mark> e cineasta norte-americano que veio de uma família de Hong Kong, fundador do Jeet Kune Do.</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="../Projeto-Final/bruce-lee-01.jpg" alt="Bruce Lee" width="400">
+                            <figcaption>Bruce lee em Operação Dragão (Enter the Dragon – 1973).</figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <p>Lee nasceu no bairro de Chinatown em São Francisco filho de pais oriundos de Pequim e cresceu com a família em Kowloon. Foi introduzido na indústria cinematográfica pelo seu pai aparecendo em diversos filmes como um ator infantil. Lee foi para os Estados Unidos com dezoito anos para ter ensino superior na Universidade de Washington, em Seattle, onde começou a ensinar artes marciais. Os seus filmes em Hong Kong e Hollywood elevaram os filmes tradicionais de artes marciais de Hong Kong para um novo nível de aclamação e popularidade, criando, no Ocidente na década de 1970, um grande interesse nas artes marciais chinesas. A direção e o tom dos seus filmes mudaram e influenciaram as artes marciais e os filmes de artes marciais tanto nos Estados Unidos, como em Hong Kong e no resto do mundo.</p>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="../Projeto-Final/bruce-lee-03.jpg" alt="Bruce Lee" width="400">
+                            <figcaption>Bruce lee em Jogo da Morte (Game of Death – 1978).</figcaption>
+                        </figure>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>                    
+                    <td colspan="3">Lee tornou-se conhecido pelo seu papel em cinco longas-metragens: The Big Boss (1971) e Fist of Fury (1972) de Lo Wei; Way of the Dragon (1972) da Golden Harvest, realizado e escrito por Lee; Enter the Dragon (1973) da Golden Harvest e Warner Brothers e The Game of Death (1978), ambos com realização de Robert Clouse. Lee tornou-se uma figura icónica por todo o mundo, particularmente entre os chineses, visto que ele retratava o nacionalismo chinês nos seus filmes. Treinou a arte do wing chun e, mais tarde, combinou as suas influências de outras fontes no espírito da sua própria filosofia de artes marciais, à qual chamou <mark>JEET KUNE DO</mark> (O Caminho do Punho Interceptor). Lee tinha dupla nacionalidade, americana e de Hong Kong. Morreu em Kowloon Tong a 20 de julho de 1973, com 32 anos.</td>
+                </tr>
+            </tfoot>
+        </table>
     </main>
     
-    <article>
-        <head>
-            <h3 id="infancia">INFÂNCIA</h3>
-        </head>        
-        <section>
-            <p>No ano e na hora do lendário dragão chinês, Bruce Lee nasceu em São Francisco, na Califórnia, durante uma passagem da Ópera chinesa, da qual seus pais eram integrantes.</p>
-            <p>Voltou para Hong Kong (colónia britânica até 1997) com apenas 3 meses de idade, cresceu e viveu lá até o fim de sua adolescência. Seu pai se chamava Lee Hoi-Chuen, e sua mãe, Grace Ho. Bruce foi o quarto de cinco filhos. Por seus pais serem artistas da Ópera Chinesa, Bruce atuou em vários filmes chineses durante sua infância.</p>
-        </section>
-        <footer>
+    <main>
+        <article id="infancia">
+            <head>
+                <h3>INFÂNCIA</h3>
+            </head>        
+            <section>
+                <p>No ano e na hora do lendário dragão chinês, Bruce Lee nasceu em São Francisco, na Califórnia, durante uma passagem da Ópera chinesa, da qual seus pais eram integrantes.</p>
+                <p>Voltou para Hong Kong (colónia britânica até 1997) com apenas 3 meses de idade, cresceu e viveu lá até o fim de sua adolescência. Seu pai se chamava Lee Hoi-Chuen, e sua mãe, Grace Ho. Bruce foi o quarto de cinco filhos. Por seus pais serem artistas da Ópera Chinesa, Bruce atuou em vários filmes chineses durante sua infância.</p>
+            </section>
+            <footer>
                 <a href="#inicio"><img src="../Projeto-Final/seta.png" alt="Ir para início" width="35"></a>
-        </footer>
-        <br>
-    </article>
+            </footer>
+            <br>
+        </article>
+
+
+    </main>
+
         
     <div>
         <h3 id="nomes">NOMES</h3>
@@ -179,11 +213,14 @@
         <br>
     </div>
 
-    <div>        
-        <h4>Fonte das Informações: <a href="https://pt.wikipedia.org/wiki/Bruce_Lee">Wikipedia</a></h4>
+    <footer>
+        <address>
+
+        </address>
+        <h4 id="creditos">Fonte das Informações: <a href="https://pt.wikipedia.org/wiki/Bruce_Lee">Wikipedia</a></h4>
         <a href="#inicio"><img src="../Projeto-Final/seta.png" alt="Ir para início" width="35"></a>
         <br>
-    </div>   
+    </footer>   
 
 </body>
 </html>
