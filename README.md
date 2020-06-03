@@ -2,7 +2,7 @@
 ### Curso de HTML5 para iniciantes -  Node Studio Treinamentos - Usando Notepad++
 
 ### Desenvolvido por André Rodrigues.
-### email de contato: andre_santos_t@hotmail.com
+### email de contato: dev-asantos@outlook.com
 
 Clique [AQUI](https://github.com/MunrraMT/Aprendendo_HTML5) para ver o GitHUB.
 
